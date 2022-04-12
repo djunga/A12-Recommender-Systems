@@ -1,0 +1,64 @@
+---
+title: "Week 11 - Recommender Systems"
+author: "Tora Mullings"
+date: "April 12, 2022"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Introduction
+A recommender system's job is to determine what qualities a user likes about a particular item and suggest more items based on those qualities. It is a tool to drive user interest in a platform in a targeted way. An example is the YouTube recommender system. Its purpose is to recommend videos to its users in an attempt to keep them on the platform as long as possible.
+
+How is YouTube's recommender system linked to its profit/business model? How does YouTube make its recommendations? How might they be improved?
+
+![](yt.png)
+
+***
+### Scenario Design Analysis
+#### YouTube
+What are its avenues of profit? YouTube Premium subscriptions, but most importantly being paid by other companies to show ads for their service/product. In other words, there are 2 main ways that YT profits. Most of it comes from sponsoring ads, and the rest is from monthly subscriptions to viewers like YouTube Premium. 
+
+Their key goals are to create an environment that other companies regard as high traffic. These companies want as many people as possible to view their ads. Another one of YT’s goals is to gain many Premium subscribers.
+
+To draw in companies to have their advertisements sponsored, I would drive traffic on YT by improving the recommendation system. This is key, since viewers are more likely to watch video after video if they are interested in their recommendations. The recommendation system will also drive people to subscribe to Premium in order to have the ads removed from their YT experience, as well as other perks such as offline playback.
+
+![](premium.png)
+
+***
+#### YouTube's customers
+Who are YT’s customers? Other companies and video viewers.
+
+Who are the other companies’ target users? Video viewers. They want these people to purchase their product/service. 
+
+Who are the video viewers’ target users? They do not have any, since their goals are not profit-driven. It is not worthwhile to consider them in this part of the scenario design analysis.
+
+The other companies key goals are to gain more clicks from advertisements, or for more people to navigate to their website from another way, such as a Google search.
+
+I can help the other companies accomplish their goals by creating a system that will place their ads in videos that are relevant to the viewer, so that the viewer is more likely to make a purchase or at least gain interest.
+
+![Example of an ad on a video](ytad.png)
+
+***
+### YouTube's Site Interface
+The site interface has operations that the user can employ to influence their recommendations. When viewing your recommendations list, for any video you may choose “Not interested” or “Don’t recommend channel”. On the video itself, there are Like and Dislike buttons. According to a YouTube blog post, “Viewers can still dislike videos to tune their recommendations and privately share feedback with creators.” These functions give YT more information to tweak its recommendations to you. The Like button does not seem to play a role in the recommender system- when you click it, the video is merely added to a “Liked Videos” playlist for you to view later.
+
+***
+### Possible Ways to Improve
+It is not clear if the Like button affects recommendations, but I would suggest that it become a factor. Also, when a user adds a video to a playlist, YT could determine which qualities the videos in that playlist have in common. Then similar videos can be suggested to the user. 
+
+***
+## Conclusion
+YouTube's recommendation system has 2 parts: The role of the video viewers is to watch many videos and stay on the platform for as long as possible. This is accomplished by having the recommendation system suggest relevant videos to them. The other part is companies who have their ads sponsored by YouTube. Companies flock to YouTube when more viewers are drawn in. This combination of individual people and organizations drives YouTube's profit. To maximize their profit, YouTube should continue to improve their recommendation system.
+
+***
+#### Sources
+Team, T. Y. T. (2021, November 10). An update to dislikes on YouTube. blog.youtube. Retrieved April 12, 2022, from https://blog.youtube/news-and-events/update-to-youtube/ 
+
+Kumar, A. (2020, January 30). YouTube's Recommendation Engine: Explained. Hackernoon. Retrieved April 12, 2022, from https://hackernoon.com/youtubes-recommendation-engine-explained-40j83183 
+
+
+
+
+
